@@ -16,3 +16,13 @@ output "eu-west-1-url_with_name" {
     description = "url with dns name to use to view the game"
     value = module.eu-west-1.url_with_name
 }
+    
+output "us-west-1-url_by_ip" {
+    description = "url ip to use to view the game"
+    value = module.us-west-1.url_by_ip
+}
+
+output "us-west-1-url_with_name" {
+    description = "url with dns name to use to view the game"
+    value = module.us-west-1.url_with_name
+}
