@@ -22,5 +22,5 @@ module "eu-west-1" {
   source  = "app.terraform.io/HC-SE-Onboarding/terramino/aws"
   version = "1.0.0"
   region = "us-west-1"
-  ami_id_value = "ami-07e909c80feae7c20"
+  ami_id_value = "ami-03b5d9a16d1261864"
 }
