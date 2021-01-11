@@ -1,7 +1,5 @@
 # main.tf
 module "us-east-2" {
-  #source = "./modules/multi-region"
-  #name   = "my-queue-name"
   source  = "app.terraform.io/HC-SE-Onboarding/terramino/aws"
   version = "1.0.0"
   # insert required variables here
@@ -10,7 +8,6 @@ module "us-east-2" {
 }
   
 module "eu-west-1" {
-  #source = "./modules/multi-region"
   source  = "app.terraform.io/HC-SE-Onboarding/terramino/aws"
   version = "1.0.0"
   region = "eu-west-1"
@@ -18,7 +15,6 @@ module "eu-west-1" {
 }
 
   module "us-west-1" {
-  #source = "./modules/multi-region"
   source  = "app.terraform.io/HC-SE-Onboarding/terramino/aws"
   version = "1.0.0"
   region = "us-west-1"
