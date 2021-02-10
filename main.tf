@@ -19,6 +19,6 @@
   version = "1.0.0"
   region = "us-west-1"
   ami_id_value = "ami-03b5d9a16d1261864"
-  instance-count = 5
+  instance-count = "5"
   ttl = "168"
 }
