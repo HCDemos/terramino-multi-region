@@ -16,7 +16,7 @@
 
   module "us-west-1" {
   source  = "app.terraform.io/HCDemos/terramino/aws"
-  version = "1.0.2"
+  version = "1.0.3"
   region = "us-west-1"
   ami_id_value = "ami-03b5d9a16d1261864"
   instance-count = 5
